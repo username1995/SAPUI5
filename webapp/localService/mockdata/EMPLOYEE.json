@@ -2,12 +2,12 @@
   "EMPLOYEESet" : [
     
      {  "Id" : "35",
-        "Name" : "Damian",
+        "Name" : "DUPA",
         "Age" : "26"
       },
       {
         "Id" : "36",
-        "Name" : "LEPIEJ",
+        "Name" : "DUPA",
         "Age" : "12"
       }
 ]

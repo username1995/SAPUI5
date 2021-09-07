@@ -8,12 +8,10 @@ sap.ui.define([
     "sap/m/PDFViewer",	
     'sap/ui/export/library',
 	'sap/ui/export/Spreadsheet',
-    "project001employee/libs/chuj",
     "sap/ui/model/json/JSONModel",
     'sap/m/ColumnListItem',
 	'sap/m/Label',
-	'sap/m/Token',
-	'sap/ui/core/Fragment'
+	'sap/m/Token'
 ], function (Controller,
 	MessageToast,
 	Fragment,
@@ -213,7 +211,7 @@ for (var i = 1; i <= 31; i++) {
 
             // this.getView().setModel(jsonModel, "list");
             this.getView().setModel(this.getOwnerComponent().getModel("dupa"));
-           
+       //     this.getView().setModel(this.getOwnerComponent().getModel("tableData"));//do mocka
         },
         onSearch: function(oEvent) 
         {

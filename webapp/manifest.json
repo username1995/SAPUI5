@@ -35,7 +35,12 @@
           "odataVersion": "2.0",
           "localUri": "localService/metadata.xml"
         }
-      }
+      },
+      "MockServer": {
+				"uri": "localService/mockdata/EMPLOYEE.json",
+				"type": "JSON"
+			}
+      
       
 		}
   },
@@ -91,7 +96,13 @@
 			},
       "ZNames2Entity": {
         "dataSource": "searchHelpService"	
+			},
+
+      "tableData": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "MockServer"
 			}
+
     },
     "resources": {
       "css": [
